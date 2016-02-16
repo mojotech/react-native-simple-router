@@ -159,6 +159,16 @@ class Router extends React.Component {
       margin = 64;
     }
 
+    this.toRoute = goForward;
+    this.toBack = goBackwards;
+    this.replaceRoute = replaceRoute;
+    this.resetToRoute = resetToRoute;
+    this.reset = goToFirstRoute;
+    this.setRightProps = setRightProps;
+    this.setLeftProps = setLeftProps;
+    this.setTitleProps = setTitleProps;
+    this.customAction = customAction;
+
     return (
       <View
         style={[this.styles.container, this.props.bgStyle, extraStyling, { marginTop: margin }]}
