@@ -245,7 +245,7 @@ class NavBarContent extends React.Component {
             this.props.titleStyle,
             this.props.route.titleStyle,
           ]}
-          numberOfLines={1}
+          numberOfLines={2}
         >
           {this.props.route.name}
         </Text>
